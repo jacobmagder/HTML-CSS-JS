@@ -1,0 +1,6918 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-06-01T01:56:44.321Z",
+  "description": "Comprehensive HTML elements data structure",
+  "elements": [
+    {
+      "name": "html",
+      "category": "Document Metadata",
+      "description": "The root element of an HTML document. Represents the top-level container for all other elements.",
+      "attributes": [
+        {
+          "name": "lang",
+          "description": "Language of the document content",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "head",
+      "category": "Document Metadata",
+      "description": "Contains metadata about the document that is not displayed on the page.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "title",
+      "category": "Document Metadata",
+      "description": "Defines the title of the document shown in browser tabs and search results.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "meta",
+      "category": "Document Metadata",
+      "description": "Provides metadata about the HTML document.",
+      "attributes": [
+        {
+          "name": "name",
+          "description": "Name of the metadata",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "content",
+          "description": "Value of the metadata",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "charset",
+          "description": "Character encoding",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "http-equiv",
+          "description": "HTTP header equivalent",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "link",
+      "category": "Document Metadata",
+      "description": "Defines relationships between the current document and external resources.",
+      "attributes": [
+        {
+          "name": "href",
+          "description": "URL of the linked resource",
+          "required": true,
+          "deprecated": false,
+          "experimental": false,
+          "type": "url"
+        },
+        {
+          "name": "rel",
+          "description": "Relationship between current and linked document",
+          "required": true,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "type",
+          "description": "MIME type of the linked resource",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "style",
+      "category": "Document Metadata",
+      "description": "Contains CSS styles for the document.",
+      "attributes": [
+        {
+          "name": "type",
+          "description": "MIME type of the style language",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "media",
+          "description": "Media for which the styles apply",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "script",
+      "category": "Document Metadata",
+      "description": "Embeds or references executable code, typically JavaScript.",
+      "attributes": [
+        {
+          "name": "src",
+          "description": "URL of external script file",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "url"
+        },
+        {
+          "name": "type",
+          "description": "MIME type of the script",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "async",
+          "description": "Load script asynchronously",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "defer",
+          "description": "Defer script execution",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "base",
+      "category": "Document Metadata",
+      "description": "Specifies the base URL for relative URLs in the document.",
+      "attributes": [
+        {
+          "name": "href",
+          "description": "Base URL for relative URLs",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "url"
+        },
+        {
+          "name": "target",
+          "description": "Default target for links",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "body",
+      "category": "Content Sectioning",
+      "description": "Represents the main content of the HTML document.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "header",
+      "category": "Content Sectioning",
+      "description": "Represents introductory content or navigational aids.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "nav",
+      "category": "Content Sectioning",
+      "description": "Represents a section of navigation links.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "main",
+      "category": "Content Sectioning",
+      "description": "Represents the main content area of the document.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "section",
+      "category": "Content Sectioning",
+      "description": "Represents a standalone section of content.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "article",
+      "category": "Content Sectioning",
+      "description": "Represents a self-contained composition in a document.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "aside",
+      "category": "Content Sectioning",
+      "description": "Represents content tangentially related to the main content.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "footer",
+      "category": "Content Sectioning",
+      "description": "Represents footer information for its nearest sectioning content.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "h1",
+      "category": "Content Sectioning",
+      "description": "Represents the highest level of section headings.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "h2",
+      "category": "Content Sectioning",
+      "description": "Represents the second level of section headings.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "h3",
+      "category": "Content Sectioning",
+      "description": "Represents the third level of section headings.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "h4",
+      "category": "Content Sectioning",
+      "description": "Represents the fourth level of section headings.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "h5",
+      "category": "Content Sectioning",
+      "description": "Represents the fifth level of section headings.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "h6",
+      "category": "Content Sectioning",
+      "description": "Represents the sixth level of section headings.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "div",
+      "category": "Text Content",
+      "description": "Generic container for flow content with no semantic meaning.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "p",
+      "category": "Text Content",
+      "description": "Represents a paragraph of text.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "span",
+      "category": "Text Content",
+      "description": "Generic inline container with no semantic meaning.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "a",
+      "category": "Text Content",
+      "description": "Creates hyperlinks to other pages, files, locations, or email addresses.",
+      "attributes": [
+        {
+          "name": "href",
+          "description": "URL or link destination",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "url"
+        },
+        {
+          "name": "target",
+          "description": "Where to open the linked document",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "download",
+          "description": "Suggests filename when downloading",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "rel",
+          "description": "Relationship between current and linked document",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "strong",
+      "category": "Text Content",
+      "description": "Represents strong importance, seriousness, or urgency.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "em",
+      "category": "Text Content",
+      "description": "Represents emphasized text with stress emphasis.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "code",
+      "category": "Text Content",
+      "description": "Represents a fragment of computer code.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "pre",
+      "category": "Text Content",
+      "description": "Represents preformatted text with preserved whitespace.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "form",
+      "category": "Forms",
+      "description": "Represents a document section containing interactive controls for submitting information.",
+      "attributes": [
+        {
+          "name": "action",
+          "description": "URL where form data is sent",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "url"
+        },
+        {
+          "name": "method",
+          "description": "HTTP method for form submission",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "enctype",
+          "description": "Encoding type for form data",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "target",
+          "description": "Where to display form response",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "input",
+      "category": "Forms",
+      "description": "Creates interactive controls for web-based forms.",
+      "attributes": [
+        {
+          "name": "type",
+          "description": "Type of input control",
+          "required": true,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "description": "Name of the form control",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "value",
+          "description": "Current value of the control",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "placeholder",
+          "description": "Hint text for the input",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "required",
+          "description": "Whether the field is required",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "boolean"
+        },
+        {
+          "name": "disabled",
+          "description": "Whether the control is disabled",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "boolean"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "button",
+      "category": "Forms",
+      "description": "Represents a clickable button.",
+      "attributes": [
+        {
+          "name": "type",
+          "description": "Type of button (submit, reset, button)",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "description": "Name of the form control",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "value",
+          "description": "Value sent when form is submitted",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "disabled",
+          "description": "Whether the button is disabled",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "boolean"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "label",
+      "category": "Forms",
+      "description": "Represents a caption for a form control.",
+      "attributes": [
+        {
+          "name": "for",
+          "description": "ID of the form control this label describes",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "id"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "textarea",
+      "category": "Forms",
+      "description": "Represents a multi-line plain text editing control.",
+      "attributes": [
+        {
+          "name": "name",
+          "description": "Name of the form control",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "rows",
+          "description": "Number of visible text lines",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "number"
+        },
+        {
+          "name": "cols",
+          "description": "Visible width in characters",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "placeholder",
+          "description": "Hint text for the textarea",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "select",
+      "category": "Forms",
+      "description": "Represents a control for selecting from multiple options.",
+      "attributes": [
+        {
+          "name": "name",
+          "description": "Name of the form control",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "multiple",
+          "description": "Whether multiple options can be selected",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "size",
+          "description": "Number of visible options",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "number"
+        },
+        {
+          "name": "disabled",
+          "description": "Whether the control is disabled",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "boolean"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "option",
+      "category": "Forms",
+      "description": "Represents an option in a select element or datalist.",
+      "attributes": [
+        {
+          "name": "value",
+          "description": "Value sent when option is selected",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "selected",
+          "description": "Whether option is initially selected",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "disabled",
+          "description": "Whether option is disabled",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "boolean"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "img",
+      "category": "Media",
+      "description": "Embeds an image into the document.",
+      "attributes": [
+        {
+          "name": "src",
+          "description": "URL of the image",
+          "required": true,
+          "deprecated": false,
+          "experimental": false,
+          "type": "url"
+        },
+        {
+          "name": "alt",
+          "description": "Alternative text for the image",
+          "required": true,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "width",
+          "description": "Width of the image",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "id"
+        },
+        {
+          "name": "height",
+          "description": "Height of the image",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "number"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "video",
+      "category": "Media",
+      "description": "Embeds video content into the document.",
+      "attributes": [
+        {
+          "name": "src",
+          "description": "URL of the video",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "url"
+        },
+        {
+          "name": "controls",
+          "description": "Whether to show playback controls",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "autoplay",
+          "description": "Whether to start playing automatically",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "loop",
+          "description": "Whether to loop the video",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "muted",
+          "description": "Whether to mute the audio",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "audio",
+      "category": "Media",
+      "description": "Embeds sound content into the document.",
+      "attributes": [
+        {
+          "name": "src",
+          "description": "URL of the audio",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "url"
+        },
+        {
+          "name": "controls",
+          "description": "Whether to show playback controls",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "autoplay",
+          "description": "Whether to start playing automatically",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "loop",
+          "description": "Whether to loop the audio",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "muted",
+          "description": "Whether to mute the audio",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "ul",
+      "category": "Lists",
+      "description": "Represents an unordered list of items.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "ol",
+      "category": "Lists",
+      "description": "Represents an ordered list of items.",
+      "attributes": [
+        {
+          "name": "type",
+          "description": "Type of numbering (1, A, a, I, i)",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "number"
+        },
+        {
+          "name": "start",
+          "description": "Starting number for the list",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "number"
+        },
+        {
+          "name": "reversed",
+          "description": "Whether the list is in reverse order",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "li",
+      "category": "Lists",
+      "description": "Represents an item in a list.",
+      "attributes": [
+        {
+          "name": "value",
+          "description": "Ordinal value of the list item (for ordered lists)",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "dl",
+      "category": "Lists",
+      "description": "Represents a description list of term-description pairs.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "dt",
+      "category": "Lists",
+      "description": "Represents a term in a description list.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "dd",
+      "category": "Lists",
+      "description": "Represents the description of a term in a description list.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "table",
+      "category": "Tables",
+      "description": "Represents tabular data in rows and columns.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "thead",
+      "category": "Tables",
+      "description": "Groups header content in a table.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "tbody",
+      "category": "Tables",
+      "description": "Groups body content in a table.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "tfoot",
+      "category": "Tables",
+      "description": "Groups footer content in a table.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "tr",
+      "category": "Tables",
+      "description": "Represents a row of cells in a table.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "th",
+      "category": "Tables",
+      "description": "Represents a header cell in a table.",
+      "attributes": [
+        {
+          "name": "scope",
+          "description": "Cells that the header relates to",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "colspan",
+          "description": "Number of columns the cell spans",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "number"
+        },
+        {
+          "name": "rowspan",
+          "description": "Number of rows the cell spans",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "number"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "td",
+      "category": "Tables",
+      "description": "Represents a data cell in a table.",
+      "attributes": [
+        {
+          "name": "colspan",
+          "description": "Number of columns the cell spans",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "number"
+        },
+        {
+          "name": "rowspan",
+          "description": "Number of rows the cell spans",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "number"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "caption",
+      "category": "Tables",
+      "description": "Provides a title or explanation for a table.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "colgroup",
+      "category": "Tables",
+      "description": "Groups one or more columns in a table for formatting.",
+      "attributes": [
+        {
+          "name": "span",
+          "description": "Number of columns the group spans",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "number"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "col",
+      "category": "Tables",
+      "description": "Defines a column within a table and is used for defining common semantics on all common cells.",
+      "attributes": [
+        {
+          "name": "span",
+          "description": "Number of columns the element spans",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "number"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "details",
+      "category": "Interactive Elements",
+      "description": "Creates a disclosure widget where information is visible only when toggled into an \"open\" state.",
+      "attributes": [
+        {
+          "name": "open",
+          "description": "Whether the details are currently visible",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "summary",
+      "category": "Interactive Elements",
+      "description": "Provides a summary or caption for the contents of a details element.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "dialog",
+      "category": "Interactive Elements",
+      "description": "Represents a dialog box or other interactive component.",
+      "attributes": [
+        {
+          "name": "open",
+          "description": "Whether the dialog is open",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "b",
+      "category": "Text-level Semantics",
+      "description": "Represents text that should be stylistically different but without conveying extra importance.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "i",
+      "category": "Text-level Semantics",
+      "description": "Represents text in an alternate voice or mood, or otherwise offset from normal prose.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "u",
+      "category": "Text-level Semantics",
+      "description": "Represents text that should be stylistically different from normal text.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "small",
+      "category": "Text-level Semantics",
+      "description": "Represents side comments and small print.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "sub",
+      "category": "Text-level Semantics",
+      "description": "Represents subscript text.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "sup",
+      "category": "Text-level Semantics",
+      "description": "Represents superscript text.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "mark",
+      "category": "Text-level Semantics",
+      "description": "Represents text which is marked or highlighted for reference or notation purposes.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "del",
+      "category": "Text-level Semantics",
+      "description": "Represents deleted text.",
+      "attributes": [
+        {
+          "name": "cite",
+          "description": "URL of a document that explains the change",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "url"
+        },
+        {
+          "name": "datetime",
+          "description": "Date and time when the change was made",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "ins",
+      "category": "Text-level Semantics",
+      "description": "Represents inserted text.",
+      "attributes": [
+        {
+          "name": "cite",
+          "description": "URL of a document that explains the change",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "url"
+        },
+        {
+          "name": "datetime",
+          "description": "Date and time when the change was made",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "q",
+      "category": "Text-level Semantics",
+      "description": "Represents a short inline quotation.",
+      "attributes": [
+        {
+          "name": "cite",
+          "description": "URL of the source of the quotation",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "url"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "cite",
+      "category": "Text-level Semantics",
+      "description": "Represents the title of a creative work.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "abbr",
+      "category": "Text-level Semantics",
+      "description": "Represents an abbreviation or acronym.",
+      "attributes": [
+        {
+          "name": "title",
+          "description": "Full form of the abbreviation",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "dfn",
+      "category": "Text-level Semantics",
+      "description": "Represents the defining instance of a term.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "time",
+      "category": "Text-level Semantics",
+      "description": "Represents a specific period in time.",
+      "attributes": [
+        {
+          "name": "datetime",
+          "description": "Machine-readable date/time value",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "var",
+      "category": "Text-level Semantics",
+      "description": "Represents the name of a variable in a mathematical expression or programming context.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "samp",
+      "category": "Text-level Semantics",
+      "description": "Represents sample output from a computer program.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "kbd",
+      "category": "Text-level Semantics",
+      "description": "Represents user input (typically keyboard input).",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "br",
+      "category": "Text-level Semantics",
+      "description": "Produces a line break in text.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "wbr",
+      "category": "Text-level Semantics",
+      "description": "Represents a word break opportunity.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "iframe",
+      "category": "Embedded Content",
+      "description": "Embeds another HTML page into the current page.",
+      "attributes": [
+        {
+          "name": "src",
+          "description": "URL of the page to embed",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "url"
+        },
+        {
+          "name": "width",
+          "description": "Width of the frame",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "id"
+        },
+        {
+          "name": "height",
+          "description": "Height of the frame",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "number"
+        },
+        {
+          "name": "sandbox",
+          "description": "Security restrictions for the frame",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "allow",
+          "description": "Permissions policy for the frame",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "embed",
+      "category": "Embedded Content",
+      "description": "Embeds external content at the specified point in the document.",
+      "attributes": [
+        {
+          "name": "src",
+          "description": "URL of the resource to embed",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "url"
+        },
+        {
+          "name": "type",
+          "description": "MIME type of the embedded content",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "width",
+          "description": "Width of the embedded content",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "id"
+        },
+        {
+          "name": "height",
+          "description": "Height of the embedded content",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "number"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "object",
+      "category": "Embedded Content",
+      "description": "Represents an external resource that can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.",
+      "attributes": [
+        {
+          "name": "data",
+          "description": "URL of the resource",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "url"
+        },
+        {
+          "name": "type",
+          "description": "MIME type of the resource",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "width",
+          "description": "Width of the object",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "id"
+        },
+        {
+          "name": "height",
+          "description": "Height of the object",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "number"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "param",
+      "category": "Embedded Content",
+      "description": "Defines parameters for an object element.",
+      "attributes": [
+        {
+          "name": "name",
+          "description": "Name of the parameter",
+          "required": true,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "value",
+          "description": "Value of the parameter",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "source",
+      "category": "Embedded Content",
+      "description": "Specifies multiple media resources for media elements.",
+      "attributes": [
+        {
+          "name": "src",
+          "description": "URL of the media resource",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "url"
+        },
+        {
+          "name": "type",
+          "description": "MIME type of the resource",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "media",
+          "description": "Media query for when to use this source",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "track",
+      "category": "Embedded Content",
+      "description": "Specifies text tracks for media elements.",
+      "attributes": [
+        {
+          "name": "src",
+          "description": "URL of the track file",
+          "required": true,
+          "deprecated": false,
+          "experimental": false,
+          "type": "url"
+        },
+        {
+          "name": "kind",
+          "description": "Kind of text track",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "srclang",
+          "description": "Language of the track text",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "url"
+        },
+        {
+          "name": "label",
+          "description": "User-readable title for the track",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "fieldset",
+      "category": "Forms (Extended)",
+      "description": "Groups related form controls and labels.",
+      "attributes": [
+        {
+          "name": "disabled",
+          "description": "Whether the fieldset is disabled",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "boolean"
+        },
+        {
+          "name": "name",
+          "description": "Name of the fieldset",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "legend",
+      "category": "Forms (Extended)",
+      "description": "Provides a caption for a fieldset element.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "datalist",
+      "category": "Forms (Extended)",
+      "description": "Contains a set of option elements that represent predefined options for other controls.",
+      "attributes": [
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    },
+    {
+      "name": "output",
+      "category": "Forms (Extended)",
+      "description": "Represents the result of a calculation or user action.",
+      "attributes": [
+        {
+          "name": "name",
+          "description": "Name of the output element",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "string"
+        },
+        {
+          "name": "for",
+          "description": "Space-separated list of IDs of elements that",
+          "required": false,
+          "deprecated": false,
+          "experimental": false,
+          "type": "id"
+        },
+        {
+          "name": "id",
+          "description": "Unique identifier for the element",
+          "required": false,
+          "type": "id",
+          "global": true
+        },
+        {
+          "name": "class",
+          "description": "Space-separated list of CSS classes",
+          "required": false,
+          "type": "class-list",
+          "global": true
+        },
+        {
+          "name": "style",
+          "description": "Inline CSS styles",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "title",
+          "description": "Advisory information about the element",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "lang",
+          "description": "Language of the element content",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "dir",
+          "description": "Text direction (ltr, rtl, auto)",
+          "required": false,
+          "type": "string",
+          "global": true
+        },
+        {
+          "name": "hidden",
+          "description": "Indicates element is not relevant",
+          "required": false,
+          "type": "boolean",
+          "global": true
+        },
+        {
+          "name": "tabindex",
+          "description": "Indicates if element can be focused",
+          "required": false,
+          "type": "number",
+          "global": true
+        }
+      ],
+      "contentModel": "",
+      "accessibility": {},
+      "browserSupport": {},
+      "examples": [],
+      "deprecated": false,
+      "experimental": false
+    }
+  ],
+  "statistics": {
+    "totalElements": 88,
+    "categories": 11
+  }
+}

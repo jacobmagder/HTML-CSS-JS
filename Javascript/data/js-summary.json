@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-06-01T03:08:30.322Z",
+    "totalCategories": 6,
+    "totalObjects": 39,
+    "totalKeywords": 41,
+    "totalMethods": 305
+  },
+  "categories": {
+    "Core Language Syntax": {
+      "name": "Core Language Syntax",
+      "objectCount": 9,
+      "keywordCount": 38,
+      "subcategoryCount": 2
+    },
+    "Built-in Objects": {
+      "name": "Built-in Objects",
+      "objectCount": 13,
+      "keywordCount": 0,
+      "subcategoryCount": 3
+    },
+    "Collections": {
+      "name": "Collections",
+      "objectCount": 4,
+      "keywordCount": 0,
+      "subcategoryCount": 0
+    },
+    "Promises and Async": {
+      "name": "Promises and Async",
+      "objectCount": 1,
+      "keywordCount": 0,
+      "subcategoryCount": 0
+    },
+    "ES6+ Modern Features": {
+      "name": "ES6+ Modern Features",
+      "objectCount": 6,
+      "keywordCount": 0,
+      "subcategoryCount": 3
+    },
+    "Web APIs": {
+      "name": "Web APIs",
+      "objectCount": 6,
+      "keywordCount": 3,
+      "subcategoryCount": 4
+    }
+  },
+  "topObjects": [
+    {
+      "name": "Array",
+      "methodCount": 37,
+      "propertyCount": 1
+    },
+    {
+      "name": "Math",
+      "methodCount": 35,
+      "propertyCount": 8
+    },
+    {
+      "name": "String",
+      "methodCount": 34,
+      "propertyCount": 1
+    },
+    {
+      "name": "Date",
+      "methodCount": 30,
+      "propertyCount": 0
+    },
+    {
+      "name": "CanvasRenderingContext2D",
+      "methodCount": 27,
+      "propertyCount": 10
+    },
+    {
+      "name": "Object",
+      "methodCount": 22,
+      "propertyCount": 0
+    },
+    {
+      "name": "Element",
+      "methodCount": 19,
+      "propertyCount": 12
+    },
+    {
+      "name": "Reflect",
+      "methodCount": 13,
+      "propertyCount": 0
+    },
+    {
+      "name": "Number",
+      "methodCount": 12,
+      "propertyCount": 8
+    },
+    {
+      "name": "Document",
+      "methodCount": 11,
+      "propertyCount": 7
+    }
+  ],
+  "topKeywords": [
+    {
+      "name": "fetch",
+      "attributeCount": 7
+    },
+    {
+      "name": "localStorage",
+      "attributeCount": 6
+    },
+    {
+      "name": "sessionStorage",
+      "attributeCount": 6
+    },
+    {
+      "name": "for",
+      "attributeCount": 3
+    },
+    {
+      "name": "function",
+      "attributeCount": 2
+    },
+    {
+      "name": "import",
+      "attributeCount": 2
+    },
+    {
+      "name": "break",
+      "attributeCount": 1
+    },
+    {
+      "name": "case",
+      "attributeCount": 1
+    },
+    {
+      "name": "async",
+      "attributeCount": 1
+    },
+    {
+      "name": "await",
+      "attributeCount": 1
+    }
+  ]
+}

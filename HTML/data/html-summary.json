@@ -1,0 +1,20 @@
+{
+  "totalElements": 88,
+  "categoryCounts": {
+    "Document Metadata": 8,
+    "Content Sectioning": 14,
+    "Text Content": 8,
+    "Forms": 7,
+    "Media": 3,
+    "Lists": 6,
+    "Tables": 10,
+    "Interactive Elements": 3,
+    "Text-level Semantics": 19,
+    "Embedded Content": 6,
+    "Forms (Extended)": 4
+  },
+  "deprecatedCount": 0,
+  "experimentalCount": 0,
+  "deprecatedElements": [],
+  "experimentalElements": []
+}

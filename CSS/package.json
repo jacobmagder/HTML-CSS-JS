@@ -1,0 +1,25 @@
+{
+  "name": "css-validator",
+  "version": "1.0.0",
+  "description": "CSS language validation and parsing system",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/test-validator.js",
+    "build": "node scripts/process-css-data.js && node scripts/validate-data.js",
+    "validate": "node src/index.js"
+  },
+  "keywords": [
+    "css",
+    "validation",
+    "parsing",
+    "web-development",
+    "properties",
+    "selectors",
+    "syntax"
+  ],
+  "dependencies": {
+    "css-tree": "^3.1.0"
+  },
+  "author": "CSS Validation System",
+  "license": "MIT"
+}

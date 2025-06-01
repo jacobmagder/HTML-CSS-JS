@@ -1,0 +1,39 @@
+{
+  "name": "javascript-language-data",
+  "version": "1.0.0",
+  "description": "Comprehensive JavaScript language data collection and validation system",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "node scripts/tree-to-json.js",
+    "validate": "node scripts/validate-data.js",
+    "test": "node test/test-validator.js",
+    "cli": "node src/index.js",
+    "validate-syntax": "node src/index.js validate-syntax",
+    "object-info": "node src/index.js object-info",
+    "method-info": "node src/index.js method-info",
+    "categories": "node src/index.js categories",
+    "stats": "node src/index.js stats",
+    "search": "node src/index.js search"
+  },
+  "keywords": [
+    "javascript",
+    "language",
+    "data",
+    "validation",
+    "parser",
+    "ast",
+    "documentation"
+  ],
+  "author": "JavaScript Language Data Team",
+  "license": "MIT",
+  "devDependencies": {
+    "acorn": "^8.11.0",
+    "acorn-walk": "^8.3.0"
+  },
+  "directories": {
+    "src": "src",
+    "scripts": "scripts",
+    "data": "data",
+    "test": "test"
+  }
+}

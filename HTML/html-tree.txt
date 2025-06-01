@@ -1,0 +1,455 @@
+# HTML Elements Structure
+
+## Document Metadata
+Elements that provide metadata about the document
+
+### <html>
+The root element of an HTML document. Represents the top-level container for all other elements.
+- lang - Language of the document content
+- dir - Text direction (ltr, rtl, auto)
+
+### <head>
+Contains metadata about the document that is not displayed on the page.
+- None specific to this element
+
+### <title>
+Defines the title of the document shown in browser tabs and search results.
+- None specific to this element
+
+### <meta>
+Provides metadata about the HTML document.
+- name - Name of the metadata
+- content - Value of the metadata
+- charset - Character encoding
+- http-equiv - HTTP header equivalent
+
+### <link>
+Defines relationships between the current document and external resources.
+- href (required) - URL of the linked resource
+- rel (required) - Relationship between current and linked document
+- type - MIME type of the linked resource
+
+### <style>
+Contains CSS styles for the document.
+- type - MIME type of the style language
+- media - Media for which the styles apply
+
+### <script>
+Embeds or references executable code, typically JavaScript.
+- src - URL of external script file
+- type - MIME type of the script
+- async - Load script asynchronously
+- defer - Defer script execution
+
+### <base>
+Specifies the base URL for relative URLs in the document.
+- href - Base URL for relative URLs
+- target - Default target for links
+
+## Content Sectioning
+Elements that organize document content into logical sections
+
+### <body>
+Represents the main content of the HTML document.
+- None specific to this element
+
+### <header>
+Represents introductory content or navigational aids.
+- None specific to this element
+
+### <nav>
+Represents a section of navigation links.
+- None specific to this element
+
+### <main>
+Represents the main content area of the document.
+- None specific to this element
+
+### <section>
+Represents a standalone section of content.
+- None specific to this element
+
+### <article>
+Represents a self-contained composition in a document.
+- None specific to this element
+
+### <aside>
+Represents content tangentially related to the main content.
+- None specific to this element
+
+### <footer>
+Represents footer information for its nearest sectioning content.
+- None specific to this element
+
+### <h1>
+Represents the highest level of section headings.
+- None specific to this element
+
+### <h2>
+Represents the second level of section headings.
+- None specific to this element
+
+### <h3>
+Represents the third level of section headings.
+- None specific to this element
+
+### <h4>
+Represents the fourth level of section headings.
+- None specific to this element
+
+### <h5>
+Represents the fifth level of section headings.
+- None specific to this element
+
+### <h6>
+Represents the sixth level of section headings.
+- None specific to this element
+
+## Text Content
+Elements that organize blocks or sections of content
+
+### <div>
+Generic container for flow content with no semantic meaning.
+- None specific to this element
+
+### <p>
+Represents a paragraph of text.
+- None specific to this element
+
+### <span>
+Generic inline container with no semantic meaning.
+- None specific to this element
+
+### <a>
+Creates hyperlinks to other pages, files, locations, or email addresses.
+- href - URL or link destination
+- target - Where to open the linked document
+- download - Suggests filename when downloading
+- rel - Relationship between current and linked document
+
+### <strong>
+Represents strong importance, seriousness, or urgency.
+- None specific to this element
+
+### <em>
+Represents emphasized text with stress emphasis.
+- None specific to this element
+
+### <code>
+Represents a fragment of computer code.
+- None specific to this element
+
+### <pre>
+Represents preformatted text with preserved whitespace.
+- None specific to this element
+
+## Forms
+Elements for creating interactive forms
+
+### <form>
+Represents a document section containing interactive controls for submitting information.
+- action - URL where form data is sent
+- method - HTTP method for form submission
+- enctype - Encoding type for form data
+- target - Where to display form response
+
+### <input>
+Creates interactive controls for web-based forms.
+- type (required) - Type of input control
+- name - Name of the form control
+- value - Current value of the control
+- placeholder - Hint text for the input
+- required - Whether the field is required
+- disabled - Whether the control is disabled
+
+### <button>
+Represents a clickable button.
+- type - Type of button (submit, reset, button)
+- name - Name of the form control
+- value - Value sent when form is submitted
+- disabled - Whether the button is disabled
+
+### <label>
+Represents a caption for a form control.
+- for - ID of the form control this label describes
+
+### <textarea>
+Represents a multi-line plain text editing control.
+- name - Name of the form control
+- rows - Number of visible text lines
+- cols - Visible width in characters
+- placeholder - Hint text for the textarea
+
+### <select>
+Represents a control for selecting from multiple options.
+- name - Name of the form control
+- multiple - Whether multiple options can be selected
+- size - Number of visible options
+- disabled - Whether the control is disabled
+
+### <option>
+Represents an option in a select element or datalist.
+- value - Value sent when option is selected
+- selected - Whether option is initially selected
+- disabled - Whether option is disabled
+
+## Media
+Elements for embedding media content
+
+### <img>
+Embeds an image into the document.
+- src (required) - URL of the image
+- alt (required) - Alternative text for the image
+- width - Width of the image
+- height - Height of the image
+
+### <video>
+Embeds video content into the document.
+- src - URL of the video
+- controls - Whether to show playback controls
+- autoplay - Whether to start playing automatically
+- loop - Whether to loop the video
+- muted - Whether to mute the audio
+
+### <audio>
+Embeds sound content into the document.
+- src - URL of the audio
+- controls - Whether to show playback controls
+- autoplay - Whether to start playing automatically
+- loop - Whether to loop the audio
+- muted - Whether to mute the audio
+
+## Lists
+Elements for creating lists
+
+### <ul>
+Represents an unordered list of items.
+- None specific to this element
+
+### <ol>
+Represents an ordered list of items.
+- type - Type of numbering (1, A, a, I, i)
+- start - Starting number for the list
+- reversed - Whether the list is in reverse order
+
+### <li>
+Represents an item in a list.
+- value - Ordinal value of the list item (for ordered lists)
+
+### <dl>
+Represents a description list of term-description pairs.
+- None specific to this element
+
+### <dt>
+Represents a term in a description list.
+- None specific to this element
+
+### <dd>
+Represents the description of a term in a description list.
+- None specific to this element
+
+## Tables
+Elements for creating tabular data
+
+### <table>
+Represents tabular data in rows and columns.
+- None specific to this element
+
+### <thead>
+Groups header content in a table.
+- None specific to this element
+
+### <tbody>
+Groups body content in a table.
+- None specific to this element
+
+### <tfoot>
+Groups footer content in a table.
+- None specific to this element
+
+### <tr>
+Represents a row of cells in a table.
+- None specific to this element
+
+### <th>
+Represents a header cell in a table.
+- scope - Cells that the header relates to
+- colspan - Number of columns the cell spans
+- rowspan - Number of rows the cell spans
+
+### <td>
+Represents a data cell in a table.
+- colspan - Number of columns the cell spans
+- rowspan - Number of rows the cell spans
+
+### <caption>
+Provides a title or explanation for a table.
+- None specific to this element
+
+### <colgroup>
+Groups one or more columns in a table for formatting.
+- span - Number of columns the group spans
+
+### <col>
+Defines a column within a table and is used for defining common semantics on all common cells.
+- span - Number of columns the element spans
+
+## Interactive Elements
+Elements for user interaction
+
+### <details>
+Creates a disclosure widget where information is visible only when toggled into an "open" state.
+- open - Whether the details are currently visible
+
+### <summary>
+Provides a summary or caption for the contents of a details element.
+- None specific to this element
+
+### <dialog>
+Represents a dialog box or other interactive component.
+- open - Whether the dialog is open
+
+## Text-level Semantics
+Elements for inline text semantics
+
+### <b>
+Represents text that should be stylistically different but without conveying extra importance.
+- None specific to this element
+
+### <i>
+Represents text in an alternate voice or mood, or otherwise offset from normal prose.
+- None specific to this element
+
+### <u>
+Represents text that should be stylistically different from normal text.
+- None specific to this element
+
+### <small>
+Represents side comments and small print.
+- None specific to this element
+
+### <sub>
+Represents subscript text.
+- None specific to this element
+
+### <sup>
+Represents superscript text.
+- None specific to this element
+
+### <mark>
+Represents text which is marked or highlighted for reference or notation purposes.
+- None specific to this element
+
+### <del>
+Represents deleted text.
+- cite - URL of a document that explains the change
+- datetime - Date and time when the change was made
+
+### <ins>
+Represents inserted text.
+- cite - URL of a document that explains the change
+- datetime - Date and time when the change was made
+
+### <q>
+Represents a short inline quotation.
+- cite - URL of the source of the quotation
+
+### <cite>
+Represents the title of a creative work.
+- None specific to this element
+
+### <abbr>
+Represents an abbreviation or acronym.
+- title - Full form of the abbreviation
+
+### <dfn>
+Represents the defining instance of a term.
+- None specific to this element
+
+### <time>
+Represents a specific period in time.
+- datetime - Machine-readable date/time value
+
+### <var>
+Represents the name of a variable in a mathematical expression or programming context.
+- None specific to this element
+
+### <samp>
+Represents sample output from a computer program.
+- None specific to this element
+
+### <kbd>
+Represents user input (typically keyboard input).
+- None specific to this element
+
+### <br>
+Produces a line break in text.
+- None specific to this element
+
+### <wbr>
+Represents a word break opportunity.
+- None specific to this element
+
+## Embedded Content
+Elements for embedding external content
+
+### <iframe>
+Embeds another HTML page into the current page.
+- src - URL of the page to embed
+- width - Width of the frame
+- height - Height of the frame
+- sandbox - Security restrictions for the frame
+- allow - Permissions policy for the frame
+
+### <embed>
+Embeds external content at the specified point in the document.
+- src - URL of the resource to embed
+- type - MIME type of the embedded content
+- width - Width of the embedded content
+- height - Height of the embedded content
+
+### <object>
+Represents an external resource that can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.
+- data - URL of the resource
+- type - MIME type of the resource
+- width - Width of the object
+- height - Height of the object
+
+### <param>
+Defines parameters for an object element.
+- name (required) - Name of the parameter
+- value - Value of the parameter
+
+### <source>
+Specifies multiple media resources for media elements.
+- src - URL of the media resource
+- type - MIME type of the resource
+- media - Media query for when to use this source
+
+### <track>
+Specifies text tracks for media elements.
+- src (required) - URL of the track file
+- kind - Kind of text track
+- srclang - Language of the track text
+- label - User-readable title for the track
+
+## Forms (Extended)
+Additional form elements
+
+### <fieldset>
+Groups related form controls and labels.
+- disabled - Whether the fieldset is disabled
+- name - Name of the fieldset
+
+### <legend>
+Provides a caption for a fieldset element.
+- None specific to this element
+
+### <datalist>
+Contains a set of option elements that represent predefined options for other controls.
+- None specific to this element
+
+### <output>
+Represents the result of a calculation or user action.
+- name - Name of the output element
+- for - Space-separated list of IDs of elements that
