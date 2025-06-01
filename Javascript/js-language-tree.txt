@@ -1,0 +1,787 @@
+# JavaScript Language Structure
+
+## Core Language Syntax
+
+### Keywords and Operators
+
+#### <break>
+Terminates the current loop, switch, or labeled statement.
+- None specific to this keyword
+
+#### <case>
+Used in switch statements to define a case to be matched.
+- None specific to this keyword
+
+#### <async>
+Declares an asynchronous function or method.
+- None specific to this keyword
+
+#### <await>
+Waits for a Promise to resolve within an async function.
+- None specific to this keyword
+
+#### <catch>
+Used with try statements to handle exceptions.
+- None specific to this keyword
+
+#### <class>
+Declares a class with optional inheritance.
+- extends - Optional superclass to inherit from
+
+#### <const>
+Declares a block-scoped constant variable.
+- None specific to this keyword
+
+#### <continue>
+Skips the current iteration of a loop.
+- None specific to this keyword
+
+#### <debugger>
+Invokes debugging functionality.
+- None specific to this keyword
+
+#### <default>
+Used in switch statements for the default case, or in export statements.
+- None specific to this keyword
+
+#### <delete>
+Removes a property from an object.
+- None specific to this operator
+
+#### <do>
+Creates a do-while loop.
+- None specific to this keyword
+
+#### <else>
+Used with if statements for the alternative branch.
+- None specific to this keyword
+
+#### <export>
+Exports values from a module.
+- default - Whether this is the default export
+
+#### <extends>
+Used in class declarations to create inheritance.
+- None specific to this keyword
+
+#### <finally>
+Used with try statements for cleanup code.
+- None specific to this keyword
+
+#### <for>
+Creates various types of loops.
+- in - For-in loop over object properties
+- of - For-of loop over iterable values
+- await - For-await-of loop over async iterables
+
+#### <function>
+Declares a function.
+- async - Whether the function is asynchronous
+- generator - Whether the function is a generator (*)
+
+#### <if>
+Creates conditional statements.
+- None specific to this keyword
+
+#### <import>
+Imports values from other modules.
+- default - Whether importing the default export
+- namespace - Whether importing all exports as namespace
+
+#### <in>
+Tests if a property exists in an object.
+- None specific to this operator
+
+#### <instanceof>
+Tests if an object is an instance of a specific constructor.
+- None specific to this operator
+
+#### <let>
+Declares a block-scoped variable.
+- None specific to this keyword
+
+#### <new>
+Creates an instance of an object.
+- target - In constructors, references the constructor being called
+
+#### <null>
+Represents intentional absence of any object value.
+- None specific to this literal
+
+#### <return>
+Returns a value from a function.
+- None specific to this keyword
+
+#### <super>
+Refers to the parent class constructor or methods.
+- None specific to this keyword
+
+#### <switch>
+Creates a switch statement.
+- None specific to this keyword
+
+#### <this>
+Refers to the current execution context.
+- None specific to this keyword
+
+#### <throw>
+Throws an exception.
+- None specific to this keyword
+
+#### <try>
+Creates a try-catch-finally block.
+- None specific to this keyword
+
+#### <typeof>
+Returns the type of a variable.
+- None specific to this operator
+
+#### <undefined>
+Represents an undefined value.
+- None specific to this literal
+
+#### <var>
+Declares a function-scoped variable.
+- None specific to this keyword
+
+#### <void>
+Evaluates an expression and returns undefined.
+- None specific to this operator
+
+#### <while>
+Creates a while loop.
+- None specific to this keyword
+
+#### <with>
+Creates a with statement (deprecated).
+- None specific to this keyword
+
+#### <yield>
+Pauses and resumes a generator function.
+- None specific to this keyword
+
+### Modern Operators and Syntax
+
+#### <...>
+Spread and rest operator for arrays, objects, and function parameters.
+- spread - Expands iterable into individual elements
+- rest - Collects remaining elements into array
+
+#### <??>
+Nullish coalescing operator returns right operand when left is null or undefined.
+- None specific to this operator
+
+#### <?.>
+Optional chaining operator safely accesses nested object properties.
+- None specific to this operator
+
+#### <**>
+Exponentiation operator performs mathematical exponentiation.
+- None specific to this operator
+
+#### <**=>
+Exponentiation assignment operator.
+- None specific to this operator
+
+#### <&&=>
+Logical AND assignment operator.
+- None specific to this operator
+
+#### <||=>
+Logical OR assignment operator.
+- None specific to this operator
+
+#### <??=>
+Nullish coalescing assignment operator.
+- None specific to this operator
+
+#### <=>
+Arrow function syntax for creating function expressions.
+- None specific to this operator
+
+## Built-in Objects
+
+### Global Objects
+
+#### <Object>
+The base object from which all JavaScript objects inherit.
+Methods:
+- assign - Copies properties from source objects to target object
+- create - Creates a new object with specified prototype
+- defineProperty - Defines a new property or modifies an existing property
+- defineProperties - Defines multiple properties
+- entries - Returns array of key-value pairs
+- freeze - Freezes an object, preventing modifications
+- fromEntries - Creates object from array of key-value pairs
+- getOwnPropertyDescriptor - Returns property descriptor
+- getOwnPropertyDescriptors - Returns all property descriptors
+- getOwnPropertyNames - Returns array of all property names
+- getOwnPropertySymbols - Returns array of symbol properties
+- getPrototypeOf - Returns the prototype of an object
+- hasOwnProperty - Tests if object has specified property
+- is - Determines if two values are the same
+- isExtensible - Determines if object is extensible
+- isFrozen - Determines if object is frozen
+- isSealed - Determines if object is sealed
+- keys - Returns array of property names
+- preventExtensions - Prevents new properties from being added
+- seal - Seals an object, preventing new properties
+- setPrototypeOf - Sets the prototype of an object
+- values - Returns array of property values
+
+#### <Array>
+Represents an array of items.
+Properties:
+- length - Number of elements in the array
+Methods:
+- at - Returns element at specified index (supports negative indices)
+- concat - Merges arrays and returns new array
+- copyWithin - Copies array elements within the array
+- entries - Returns iterator of key-value pairs
+- every - Tests if all elements pass the test function
+- fill - Fills array elements with a static value
+- filter - Creates new array with elements that pass the test
+- find - Returns first element that matches the test function
+- findIndex - Returns index of first element that matches the test
+- findLast - Returns last element that matches the test function
+- findLastIndex - Returns index of last element that matches the test
+- flat - Flattens nested arrays to specified depth
+- flatMap - Maps and flattens array to specified depth
+- forEach - Executes function for each array element
+- from - Creates array from array-like or iterable object
+- includes - Determines if array includes certain element
+- indexOf - Returns first index of specified element
+- isArray - Determines if value is an array
+- join - Joins array elements into a string
+- keys - Returns iterator of array indices
+- lastIndexOf - Returns last index of specified element
+- map - Creates new array with results of calling function on every element
+- of - Creates array from variable number of arguments
+- pop - Removes and returns last element
+- push - Adds elements to end of array
+- reduce - Reduces array to single value (left-to-right)
+- reduceRight - Reduces array to single value (right-to-left)
+- reverse - Reverses array in place
+- shift - Removes and returns first element
+- slice - Returns shallow copy of portion of array
+- some - Tests if at least one element passes the test
+- sort - Sorts array elements in place
+- splice - Changes array by removing/replacing/adding elements
+- toLocaleString - Returns localized string representation
+- toString - Returns string representation
+- unshift - Adds elements to beginning of array
+- values - Returns iterator of array values
+
+#### <String>
+Represents text data.
+Properties:
+- length - Number of characters in the string
+Methods:
+- at - Returns character at specified index (supports negative indices)
+- charAt - Returns character at specified index
+- charCodeAt - Returns Unicode code point at specified index
+- codePointAt - Returns Unicode code point value at specified position
+- concat - Concatenates strings
+- endsWith - Determines if string ends with specified substring
+- fromCharCode - Creates string from Unicode code points
+- fromCodePoint - Creates string from Unicode code points
+- includes - Determines if string contains specified substring
+- indexOf - Returns index of first occurrence of substring
+- lastIndexOf - Returns index of last occurrence of substring
+- localeCompare - Compares strings according to locale
+- match - Matches string against regular expression
+- matchAll - Returns iterator of all regex matches
+- normalize - Returns Unicode normalized form of string
+- padEnd - Pads string from end to specified length
+- padStart - Pads string from start to specified length
+- repeat - Returns string repeated specified number of times
+- replace - Replaces substring with new string
+- replaceAll - Replaces all occurrences of substring
+- search - Searches for regex match and returns index
+- slice - Extracts section of string
+- split - Splits string into array of substrings
+- startsWith - Determines if string starts with specified substring
+- substring - Returns substring between two indices
+- toLocaleLowerCase - Returns lowercase string according to locale
+- toLocaleUpperCase - Returns uppercase string according to locale
+- toLowerCase - Returns lowercase string
+- toString - Returns string value
+- toUpperCase - Returns uppercase string
+- trim - Removes whitespace from both ends
+- trimEnd - Removes whitespace from end
+- trimStart - Removes whitespace from start
+- valueOf - Returns primitive string value
+
+#### <Number>
+Represents numeric data.
+Properties:
+- EPSILON - Smallest representable positive number
+- MAX_SAFE_INTEGER - Maximum safe integer value
+- MAX_VALUE - Maximum representable positive number
+- MIN_SAFE_INTEGER - Minimum safe integer value
+- MIN_VALUE - Smallest representable positive number
+- NEGATIVE_INFINITY - Negative infinity value
+- NaN - "Not a Number" value
+- POSITIVE_INFINITY - Positive infinity value
+Methods:
+- isFinite - Determines if value is finite number
+- isInteger - Determines if value is integer
+- isNaN - Determines if value is NaN
+- isSafeInteger - Determines if value is safe integer
+- parseFloat - Parses string and returns floating point number
+- parseInt - Parses string and returns integer
+- toExponential - Returns string in exponential notation
+- toFixed - Returns string with fixed number of decimal places
+- toLocaleString - Returns localized string representation
+- toPrecision - Returns string with specified precision
+- toString - Returns string representation
+- valueOf - Returns primitive number value
+
+#### <Boolean>
+Represents true/false values.
+Methods:
+- toString - Returns string representation ("true" or "false")
+- valueOf - Returns primitive boolean value
+
+#### <Function>
+Represents executable code.
+Properties:
+- length - Number of expected arguments
+- name - Function name
+Methods:
+- apply - Calls function with given this value and arguments array
+- bind - Creates new function with specified this value and arguments
+- call - Calls function with given this value and individual arguments
+- toString - Returns string representation of function
+
+### Error Objects
+
+#### <Error>
+Represents runtime errors.
+Properties:
+- message - Error description
+- name - Error name
+- stack - Stack trace (non-standard but widely supported)
+Methods:
+- toString - Returns string representation of error
+
+#### <SyntaxError>
+Represents syntax errors in code.
+Properties:
+- message - Error description
+- name - Error name ("SyntaxError")
+
+#### <ReferenceError>
+Represents reference errors (undefined variables).
+Properties:
+- message - Error description
+- name - Error name ("ReferenceError")
+
+#### <TypeError>
+Represents type errors.
+Properties:
+- message - Error description
+- name - Error name ("TypeError")
+
+#### <RangeError>
+Represents range errors.
+Properties:
+- message - Error description
+- name - Error name ("RangeError")
+
+### Date and Math
+
+#### <Date>
+Represents dates and times.
+Methods:
+- getDate - Returns day of month (1-31)
+- getDay - Returns day of week (0-6)
+- getFullYear - Returns full year
+- getHours - Returns hours (0-23)
+- getMilliseconds - Returns milliseconds (0-999)
+- getMinutes - Returns minutes (0-59)
+- getMonth - Returns month (0-11)
+- getSeconds - Returns seconds (0-59)
+- getTime - Returns milliseconds since epoch
+- getTimezoneOffset - Returns timezone offset in minutes
+- now - Returns current timestamp (static method)
+- parse - Parses date string (static method)
+- setDate - Sets day of month
+- setFullYear - Sets full year
+- setHours - Sets hours
+- setMilliseconds - Sets milliseconds
+- setMinutes - Sets minutes
+- setMonth - Sets month
+- setSeconds - Sets seconds
+- setTime - Sets time by milliseconds since epoch
+- toDateString - Returns date portion as string
+- toISOString - Returns ISO 8601 string
+- toJSON - Returns JSON representation
+- toLocaleDateString - Returns localized date string
+- toLocaleString - Returns localized date/time string
+- toLocaleTimeString - Returns localized time string
+- toString - Returns string representation
+- toTimeString - Returns time portion as string
+- toUTCString - Returns UTC string
+- valueOf - Returns primitive number value
+
+#### <Math>
+Provides mathematical constants and functions.
+Properties:
+- E - Euler's number
+- LN10 - Natural logarithm of 10
+- LN2 - Natural logarithm of 2
+- LOG10E - Base 10 logarithm of E
+- LOG2E - Base 2 logarithm of E
+- PI - Pi constant
+- SQRT1_2 - Square root of 1/2
+- SQRT2 - Square root of 2
+Methods:
+- abs - Absolute value
+- acos - Arccosine
+- acosh - Hyperbolic arccosine
+- asin - Arcsine
+- asinh - Hyperbolic arcsine
+- atan - Arctangent
+- atan2 - Arctangent of y/x
+- atanh - Hyperbolic arctangent
+- cbrt - Cube root
+- ceil - Ceiling (round up)
+- clz32 - Number of leading zero bits in 32-bit binary
+- cos - Cosine
+- cosh - Hyperbolic cosine
+- exp - E raised to power
+- expm1 - E raised to power minus 1
+- floor - Floor (round down)
+- fround - Nearest single precision float
+- hypot - Square root of sum of squares
+- imul - 32-bit integer multiplication
+- log - Natural logarithm
+- log10 - Base 10 logarithm
+- log1p - Natural logarithm of 1 + x
+- log2 - Base 2 logarithm
+- max - Maximum value
+- min - Minimum value
+- pow - Power
+- random - Random number between 0 and 1
+- round - Round to nearest integer
+- sign - Sign of number (-1, 0, or 1)
+- sin - Sine
+- sinh - Hyperbolic sine
+- sqrt - Square root
+- tan - Tangent
+- tanh - Hyperbolic tangent
+- trunc - Integer part (truncate decimals)
+
+## Collections
+
+#### <Map>
+Represents a collection of key-value pairs.
+Properties:
+- size - Number of entries in the map
+Methods:
+- clear - Removes all entries
+- delete - Removes entry with specified key
+- entries - Returns iterator of key-value pairs
+- forEach - Executes function for each entry
+- get - Returns value for specified key
+- has - Tests if key exists in map
+- keys - Returns iterator of keys
+- set - Sets value for specified key
+- values - Returns iterator of values
+
+#### <Set>
+Represents a collection of unique values.
+Properties:
+- size - Number of values in the set
+Methods:
+- add - Adds value to set
+- clear - Removes all values
+- delete - Removes specified value
+- entries - Returns iterator of value-value pairs
+- forEach - Executes function for each value
+- has - Tests if value exists in set
+- keys - Returns iterator of values (same as values())
+- values - Returns iterator of values
+
+#### <WeakMap>
+Represents a collection of key-value pairs with weak references.
+Methods:
+- delete - Removes entry with specified key
+- get - Returns value for specified key
+- has - Tests if key exists in map
+- set - Sets value for specified key
+
+#### <WeakSet>
+Represents a collection of unique objects with weak references.
+Methods:
+- add - Adds object to set
+- delete - Removes specified object
+- has - Tests if object exists in set
+
+## Promises and Async
+
+#### <Promise>
+Represents eventual completion or failure of asynchronous operation.
+Methods:
+- all - Waits for all promises to resolve
+- allSettled - Waits for all promises to settle (resolve or reject)
+- any - Resolves when any promise resolves
+- catch - Handles promise rejection
+- finally - Executes code regardless of promise outcome
+- race - Resolves when first promise settles
+- reject - Creates rejected promise (static method)
+- resolve - Creates resolved promise (static method)
+- then - Handles promise resolution
+
+## ES6+ Modern Features
+
+### Symbols and Primitives
+
+#### <Symbol>
+Represents a unique identifier that can be used as object keys.
+Methods:
+- for - Searches for existing symbol in global registry
+- keyFor - Returns key for globally registered symbol
+- toString - Returns string representation of symbol
+Properties:
+- description - Optional description of the symbol
+- iterator - Well-known symbol for iteration protocol
+- asyncIterator - Well-known symbol for async iteration protocol
+- toStringTag - Well-known symbol for default object description
+
+#### <BigInt>
+Represents arbitrarily large integers beyond Number.MAX_SAFE_INTEGER.
+Methods:
+- asIntN - Wraps BigInt value to signed integer
+- asUintN - Wraps BigInt value to unsigned integer
+- toString - Returns string representation
+- valueOf - Returns primitive BigInt value
+
+### Reflection and Metaprogramming
+
+#### <Proxy>
+Enables creation of proxy objects to intercept and customize operations.
+Methods:
+- revocable - Creates revocable proxy object
+
+#### <Reflect>
+Provides methods for interceptable JavaScript operations.
+Methods:
+- apply - Calls target function with specified arguments
+- construct - Acts like new operator as function
+- defineProperty - Defines property on object
+- deleteProperty - Deletes property from object
+- get - Gets property value from object
+- getOwnPropertyDescriptor - Gets property descriptor
+- getPrototypeOf - Gets prototype of object
+- has - Checks if property exists in object
+- isExtensible - Checks if object is extensible
+- ownKeys - Returns array of object's own property keys
+- preventExtensions - Prevents new properties from being added
+- set - Sets property value on object
+- setPrototypeOf - Sets prototype of object
+
+### Iterators and Generators
+
+#### <Iterator>
+Base interface for objects that implement iteration protocol.
+Methods:
+- next - Returns next value in iteration sequence
+- return - Terminates iterator and returns given value
+- throw - Throws error into iterator
+
+#### <Generator>
+Special type of iterator created by generator functions.
+Methods:
+- next - Resumes execution and returns next yielded value
+- return - Forces generator to return given value
+- throw - Throws exception into generator
+
+## Web APIs
+
+### DOM Manipulation
+
+#### <Document>
+Represents the HTML document and provides access to DOM tree.
+Methods:
+- createElement - Creates new HTML element
+- createTextNode - Creates new text node
+- getElementById - Gets element by ID
+- getElementsByClassName - Gets elements by class name
+- getElementsByTagName - Gets elements by tag name
+- querySelector - Gets first element matching CSS selector
+- querySelectorAll - Gets all elements matching CSS selector
+- addEventListener - Adds event listener to document
+- removeEventListener - Removes event listener from document
+- write - Writes HTML to document
+- writeln - Writes HTML to document with newline
+Properties:
+- body - Reference to document body element
+- head - Reference to document head element
+- title - Document title
+- URL - Document URL
+- domain - Document domain
+- cookie - Document cookies
+- readyState - Document loading state
+
+#### <Element>
+Represents an HTML element in the DOM tree.
+Methods:
+- appendChild - Adds child element
+- removeChild - Removes child element
+- insertBefore - Inserts element before specified child
+- cloneNode - Creates copy of element
+- getAttribute - Gets attribute value
+- setAttribute - Sets attribute value
+- removeAttribute - Removes attribute
+- hasAttribute - Checks if attribute exists
+- addEventListener - Adds event listener
+- removeEventListener - Removes event listener
+- querySelector - Gets descendant element matching selector
+- querySelectorAll - Gets all descendant elements matching selector
+- closest - Gets closest ancestor matching selector
+- matches - Tests if element matches selector
+- focus - Sets focus to element
+- blur - Removes focus from element
+- click - Simulates mouse click
+- scroll - Scrolls element content
+- scrollIntoView - Scrolls element into view
+Properties:
+- innerHTML - HTML content of element
+- textContent - Text content of element
+- classList - DOMTokenList of element classes
+- className - Class attribute as string
+- id - ID attribute
+- tagName - Tag name in uppercase
+- parentNode - Parent element
+- children - Child elements
+- firstChild - First child node
+- lastChild - Last child node
+- nextSibling - Next sibling node
+- previousSibling - Previous sibling node
+
+### Network APIs
+
+#### <fetch>
+Modern API for making HTTP requests.
+Methods:
+- fetch - Makes HTTP request and returns Promise
+Properties:
+- url - Request URL
+- method - HTTP method
+- headers - Request headers
+- body - Request body
+- mode - Request mode (cors, no-cors, same-origin)
+- credentials - Request credentials (omit, same-origin, include)
+
+#### <Response>
+Represents response to fetch request.
+Methods:
+- json - Parses response body as JSON
+- text - Parses response body as text
+- blob - Parses response body as Blob
+- arrayBuffer - Parses response body as ArrayBuffer
+- formData - Parses response body as FormData
+- clone - Creates copy of response
+Properties:
+- ok - Whether response was successful
+- status - HTTP status code
+- statusText - HTTP status message
+- headers - Response headers
+- url - Response URL
+- redirected - Whether response is result of redirect
+
+#### <WebSocket>
+Provides full-duplex communication over single TCP connection.
+Methods:
+- send - Sends data through WebSocket
+- close - Closes WebSocket connection
+Properties:
+- url - WebSocket URL
+- readyState - Connection state
+- protocol - Selected protocol
+- binaryType - Type for binary data
+Events:
+- onopen - Connection opened
+- onmessage - Message received
+- onerror - Error occurred
+- onclose - Connection closed
+
+### Storage APIs
+
+#### <localStorage>
+Provides access to local storage for the domain.
+Methods:
+- setItem - Stores item in local storage
+- getItem - Retrieves item from local storage
+- removeItem - Removes item from local storage
+- clear - Removes all items from local storage
+- key - Gets key at specified index
+Properties:
+- length - Number of items in storage
+
+#### <sessionStorage>
+Provides access to session storage for the domain.
+Methods:
+- setItem - Stores item in session storage
+- getItem - Retrieves item from session storage
+- removeItem - Removes item from session storage
+- clear - Removes all items from session storage
+- key - Gets key at specified index
+Properties:
+- length - Number of items in storage
+
+### Multimedia APIs
+
+#### <Canvas>
+Provides 2D rendering context for drawing graphics.
+Methods:
+- getContext - Gets rendering context
+- toDataURL - Exports canvas as data URL
+- toBlob - Exports canvas as Blob
+Properties:
+- width - Canvas width
+- height - Canvas height
+
+#### <CanvasRenderingContext2D>
+2D rendering context for canvas element.
+Methods:
+- fillRect - Fills rectangle
+- strokeRect - Strokes rectangle outline
+- clearRect - Clears rectangle area
+- beginPath - Begins new path
+- closePath - Closes current path
+- moveTo - Moves path to point
+- lineTo - Draws line to point
+- arc - Draws arc
+- bezierCurveTo - Draws bezier curve
+- quadraticCurveTo - Draws quadratic curve
+- fill - Fills current path
+- stroke - Strokes current path
+- clip - Creates clipping path
+- save - Saves current state
+- restore - Restores previous state
+- translate - Translates coordinate system
+- rotate - Rotates coordinate system
+- scale - Scales coordinate system
+- transform - Applies transformation matrix
+- setTransform - Sets transformation matrix
+- fillText - Fills text
+- strokeText - Strokes text outline
+- measureText - Measures text dimensions
+- drawImage - Draws image
+- createImageData - Creates image data
+- getImageData - Gets image data
+- putImageData - Puts image data
+Properties:
+- fillStyle - Fill color or pattern
+- strokeStyle - Stroke color or pattern
+- lineWidth - Line width
+- lineCap - Line cap style
+- lineJoin - Line join style
+- font - Font specification
+- textAlign - Text alignment
+- textBaseline - Text baseline
+- globalAlpha - Global transparency
+- globalCompositeOperation - Composite operation

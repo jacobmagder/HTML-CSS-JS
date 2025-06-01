@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unified Validator Test</title>
+</head>
+<body>
+    <header>
+        <h1 id="main-title">Web Development Validation Test</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="section1">
+            <h2>HTML & JavaScript Integration</h2>
+            <p>This page demonstrates the unified validation system.</p>
+            
+            <div class="interactive-demo">
+                <button id="demo-button" onclick="handleButtonClick()">Click Me</button>
+                <input type="text" id="user-input" placeholder="Enter text here">
+                <canvas id="demo-canvas" width="300" height="200"></canvas>
+            </div>
+        </section>
+        
+        <section id="section2">
+            <h2>Modern JavaScript Features</h2>
+            <div id="results-container"></div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Unified Web Validator Demo</p>
+    </footer>
+
+    <script>
+        // Modern JavaScript with ES6+ features
+        const appData = {
+            users: [],
+            settings: {
+                theme: 'dark',
+                autoSave: true
+            }
+        };
+
+        // Async function using fetch API
+        async function fetchUserData() {
+            try {
+                const response = await fetch('/api/users');
+                const users = await response.json();
+                return users;
+            } catch (error) {
+                console.error('Error fetching users:', error);
+                return [];
+            }
+        }
+
+        // Arrow function with destructuring
+        const handleButtonClick = () => {
+            const button = document.getElementById('demo-button');
+            const input = document.getElementById('user-input');
+            const { value } = input;
+            
+            if (value.trim()) {
+                displayMessage(`Hello, ${value}!`);
+                input.value = '';
+            }
+        };
+
+        // Template literals and DOM manipulation
+        function displayMessage(message) {
+            const container = document.getElementById('results-container');
+            const messageElement = document.createElement('div');
+            messageElement.innerHTML = `
+                <p class="message">
+                    <strong>Message:</strong> ${message}
+                    <small>(${new Date().toLocaleTimeString()})</small>
+                </p>
+            `;
+            container.appendChild(messageElement);
+        }
+
+        // Canvas drawing example
+        function initializeCanvas() {
+            const canvas = document.getElementById('demo-canvas');
+            const ctx = canvas.getContext('2d');
+            
+            // Draw a simple gradient
+            const gradient = ctx.createLinearGradient(0, 0, 300, 0);
+            gradient.addColorStop(0, '#FF6B6B');
+            gradient.addColorStop(1, '#4ECDC4');
+            
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, 300, 200);
+            
+            // Add text
+            ctx.fillStyle = 'white';
+            ctx.font = '20px Arial';
+            ctx.textAlign = 'center';
+            ctx.fillText('Unified Validator Demo', 150, 100);
+        }
+
+        // Modern array methods and Promise handling
+        async function processData() {
+            const users = await fetchUserData();
+            
+            const activeUsers = users
+                .filter(user => user.active)
+                .map(user => ({
+                    ...user,
+                    displayName: `${user.firstName} ${user.lastName}`
+                }));
+            
+            return activeUsers;
+        }
+
+        // Event listeners with modern syntax
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('DOM loaded');
+            initializeCanvas();
+            
+            // Optional chaining and nullish coalescing
+            const title = document.getElementById('main-title');
+            title?.addEventListener('click', () => {
+                const currentTheme = appData.settings?.theme ?? 'light';
+                console.log(`Current theme: ${currentTheme}`);
+            });
+        });
+
+        // Class with async methods
+        class DataManager {
+            constructor() {
+                this.cache = new Map();
+            }
+            
+            async getData(key) {
+                if (this.cache.has(key)) {
+                    return this.cache.get(key);
+                }
+                
+                const data = await this.fetchFromAPI(key);
+                this.cache.set(key, data);
+                return data;
+            }
+            
+            async fetchFromAPI(key) {
+                // Simulated API call
+                return new Promise(resolve => {
+                    setTimeout(() => resolve(`Data for ${key}`), 100);
+                });
+            }
+        }
+
+        const dataManager = new DataManager();
+    </script>
+</body>
+</html>

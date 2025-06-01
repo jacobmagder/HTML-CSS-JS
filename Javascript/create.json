@@ -1,0 +1,130 @@
+const fs = require('fs');
+const path = require('path');
+
+// This would normally come from scraping, but we'll use your structure
+const htmlStructure = {
+  "elements": {
+    "categories": {
+      "mainRoot": {
+        "name": "Main Root",
+        "description": "Represents the root of an HTML document",
+        "elements": ["html"]
+      },
+      "documentMetadata": {
+        "name": "Document Metadata",
+        "description": "Contains information about the HTML document",
+        "elements": ["base", "head", "link", "meta", "style", "title"]
+      },
+      // Add other categories from your tree
+    },
+    "details": {
+      "html": {
+        "description": "Represents the root of an HTML document. All other elements must be descendants.",
+        "categories": ["mainRoot"],
+        "attributes": ["global"],
+        "contentModel": "head, body",
+        "status": "standard"
+      },
+      "head": {
+        "description": "Container for all the head elements",
+        "categories": ["documentMetadata"],
+        "attributes": ["global"],
+        "contentModel": "metadata content",
+        "status": "standard"
+      },
+      // Continue with all elements from your tree
+    }
+  },
+  "attributes": {
+    "global": [
+      "accesskey", "autocapitalize", "autofocus", "class", "contenteditable", 
+      "data-*", "dir", "draggable", "enterkeyhint", "exportparts", "hidden", 
+      "id", "inert", "inputmode", "is", "itemid", "itemprop", "itemref", 
+      "itemscope", "itemtype", "lang", "nonce", "part", "popover", "role", 
+      "slot", "spellcheck", "style", "tabindex", "title", "translate"
+    ],
+    "details": {
+      "accesskey": {
+        "description": "Provides a hint for generating a keyboard shortcut",
+        "type": "string",
+        "applicableTo": "global",
+        "status": "standard"
+      },
+      // Add all global and specific attributes
+    }
+  },
+  "aria": {
+    "roles": {
+      "widget": [
+        "button", "checkbox", "gridcell", "link", "menuitem", "option",
+        "progressbar", "radio", "scrollbar", "searchbox", "slider", 
+        "spinbutton", "switch", "tab", "tabpanel", "textbox", "treeitem"
+      ],
+      // Add other role categories
+    },
+    "attributes": [
+      "aria-activedescendant", "aria-atomic", "aria-autocomplete",
+      // Add all ARIA attributes
+    ]
+  }
+};
+
+// Generate the full HTML data structure
+function generateHtmlData() {
+  // Take your tree structure and transform it
+  const htmlData = {
+    "elements": {},
+    "attributeGroups": {
+      "global": htmlStructure.attributes.global,
+      // Other attribute groups
+    },
+    "attributes": {},
+    "contentModels": {},
+    "ariaRoles": htmlStructure.aria.roles,
+    "ariaAttributes": htmlStructure.aria.attributes
+  };
+  
+  // Fill in elements
+  Object.entries(htmlStructure.elements.details).forEach(([tagName, details]) => {
+    htmlData.elements[tagName] = {
+      description: details.description,
+      categories: details.categories,
+      attributes: details.attributes || ["global"],
+      contentModel: details.contentModel,
+      permittedContent: details.permittedContent,
+      status: details.status,
+      examples: details.examples || []
+    };
+  });
+  
+  // Fill in attributes
+  Object.entries(htmlStructure.attributes.details).forEach(([attrName, details]) => {
+    htmlData.attributes[attrName] = {
+      description: details.description,
+      type: details.type,
+      applicableTo: details.applicableTo,
+      status: details.status
+    };
+  });
+  
+  return htmlData;
+}
+
+// Save the data
+function saveHtmlData(data) {
+  const dataDir = path.join(__dirname, '..', 'data');
+  if (!fs.existsSync(dataDir)) {
+    fs.mkdirSync(dataDir, { recursive: true });
+  }
+  
+  fs.writeFileSync(
+    path.join(dataDir, 'html-data.json'),
+    JSON.stringify(data, null, 2)
+  );
+  
+  console.log('HTML data generated and saved to html-data.json');
+}
+
+// Run the generation
+const htmlData = generateHtmlData();
+saveHtmlData(htmlData);

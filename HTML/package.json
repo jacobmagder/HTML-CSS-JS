@@ -1,0 +1,36 @@
+{
+  "name": "html-data-parser",
+  "version": "1.0.0",
+  "description": "HTML data collection and parsing system similar to CSSTree",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "node scripts/tree-to-json.js",
+    "validate": "node scripts/validate-data.js",
+    "test": "node test/test-validator.js",
+    "generate": "npm run build && npm run validate",
+    "start": "node src/index.js"
+  },
+  "keywords": ["html", "parser", "validation", "data", "csstree", "mdn"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "files": [
+    "src/",
+    "data/",
+    "scripts/",
+    "README.md"
+  ]
+}
